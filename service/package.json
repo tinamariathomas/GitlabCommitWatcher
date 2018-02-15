@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.17.1",
+    "config": "^1.29.4",
     "express": "^4.16.2",
     "ts-node": "^4.1.0",
     "typescript": "^2.6.2"
