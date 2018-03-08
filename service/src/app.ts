@@ -10,6 +10,7 @@ app.get('/commits', async (req,res) => {
 	const commits = await getCommits();
 
 	res.setHeader('Content-Type', 'application/json');
+	res.setHeader('Access-Control-Allow-Origin', '*');
 	res.send(commits.data);
 });
 app.listen(3001, () => {console.log("Listening on port 3001")});
